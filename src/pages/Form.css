@@ -1,0 +1,82 @@
+.radioButton {
+    margin-top: 20px;
+}
+
+.radioButton .MuiFormGroup-root {
+    display: inherit;
+}
+
+.emailForm {
+    position: relative;
+    margin: 0 !important;
+}
+
+.buttonEmail {
+    width: 100%;
+    margin: 30px 0 !important;
+}
+
+.selected {
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px;
+}
+
+.gridContainer .selected {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+ul.MuiImageList-root.MuiImageList-standard.windowStyleContainer.css-1arese4-MuiImageList-root,
+ul.MuiImageList-root.MuiImageList-standard.interiorContainer.css-1arese4-MuiImageList-root,
+ul.MuiImageList-root.MuiImageList-standard.exteriorContainer.css-1arese4-MuiImageList-root,
+ul.MuiImageList-root.MuiImageList-standard.gridContainer.css-17y6pj6-MuiImageList-root {
+    padding: 10px;
+}
+
+label.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    border-radius: 0;
+}
+
+@media(max-width: 768px) {
+    .upload-btn {
+        position: relative !important;
+        width: 100% !important;
+        top: 10px !important;
+        border: none !important;
+    }
+
+    ul.windowStyleContainer,
+    ul.interiorContainer,
+    ul.exteriorContainer {
+        width: 100% !important;
+    }
+
+    .add-new-btn {
+        right: 0px !important;
+    }
+
+    .gridContainer {
+        width: 100% !important;
+    }
+
+    .dimensions-width,
+    .dimensions-height {
+        width: 100% !important;
+    }
+
+    p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root {
+        margin-top: 20px;
+    }
+
+}
+
+.upload-btn {
+    position: relative;
+    top: 15px !important;
+    border-left: 1px solid white;
+}
+
+.add-new-btn {
+    width: 102px;
+}

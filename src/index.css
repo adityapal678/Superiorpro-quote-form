@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "GothamBold";
+  src: local("GothamBold"),
+    url("./fonts/gotham/GothamBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: local("GothamBook"),
+    url("./fonts/gotham/GothamBook.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* p, div, span{
+  margin-top: 10px;
+  margin-bottom: 20px;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: GothamBold;
+  padding: 20px 0;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.fw {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, p, div, span {
+  font-family: GothamBook;
+  font-size: 1.2rem !important;
+}
+
+ul li {
+  list-style: none;
+}

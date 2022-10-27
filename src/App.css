@@ -1,0 +1,54 @@
+.personal-section {
+    padding: 14px 10px;
+    background: #1565c0;
+    border-radius: 4px 4px 0 0;
+    color: white;
+    font-size: 16px;
+}
+
+.file-uploads {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+
+.responseImg {
+    display: inline;
+    padding: 5px;
+}
+
+.responseImg img {
+    box-shadow: 1px 1px 2px 0px #333;
+    border-radius: 0px;
+}
+
+.submit-configurator {
+    position: 'absolute';
+    right: '0';
+}
+
+.windowStyleContainer, .gridContainer, .interiorContainer, .exteriorContainer{
+    width: 100% !important;
+    height: auto !important;
+    padding: 4px !important;
+}
+.windowStyleContainer .selected, .gridContainer .selected {
+    border-radius: 0;
+    background-color: #EAEAEB;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+@media(max-width: 768px) {
+    .submit-configurator {
+        position: relative !important;
+    }
+
+    .file-uploads.img-uploads label {
+        width: 100%;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 40px !important;
+    }
+}
